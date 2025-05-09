@@ -1,4 +1,4 @@
-/*ders*/
+/*return*/
 #include <stdio.h>
 int main1() {
     printf("main 1\n");
@@ -19,5 +19,6 @@ int main2() {
         return 0;
     }
 /* İlk main fonksiyonunda da ikinci main foksiyonunda da çarpma işlemi yapılır ancak main1'de yapılan işlemde bir geri
- * dönüş sağlanmaz main2'de ise yapılan işlem sonucu ekrana yazılır ve return 0; ile işlem sorunsuz bir şekilde
+ * dönüş çarpma işlemi olurken ekrana yazmaz ama çarpma işlemini yapar 
+ * main2'de ise yapılan işlem sonucu ekrana yazılır ve return 0; ile işlem sorunsuz bir şekilde
  * çalıştığını işletim sistemine bildirir */
