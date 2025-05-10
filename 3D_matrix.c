@@ -7,10 +7,13 @@ int main() {
           {  {1,2,3,4,5},{6,7,8,9,0},{10,11,12,13,14},{15,16,17,18,19},{20,21,22,23,24}},
           {  {1,2,3,4,5},{6,7,8,9,0},{10,11,12,13,14},{15,16,17,18,19},{20,21,22,23,24}},
     };
-    for(int i=0;i<5;i++) {
+    for(int i=0;i<5;i++) // Derinliği yazıyor .
+    {
         printf("matrix %d\n",i);
-        for(int j=0;j<5;j++) {
-            for(int k=0;k<5;k++) {
+        for(int j=0;j<5;j++) // Satırı yazıyor.
+        {
+            for(int k=0;k<5;k++)// Sütunu yazıyor.
+                {
                 printf( "%d ",matrix[i][j][k]);
             }printf("\n");
         }printf("\n");
