@@ -1,4 +1,0 @@
-C:/Users/kaank/CLionProjects/cmake-build-debug/CMakeFiles/01.dir
-C:/Users/kaank/CLionProjects/cmake-build-debug/CMakeFiles/02.dir
-C:/Users/kaank/CLionProjects/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/kaank/CLionProjects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
