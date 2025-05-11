@@ -4,14 +4,14 @@ int main1() {
     printf("main 1\n");
     int x = 4;
     int y = 5;
-    return x * y ; // Geri dönüş yok işlem yapıldı
+    return x * y ; // Geri dönüş var ama ekranda işlem ile ilgili çıktı yok.
 }
 int main2() {
     printf("main 2      ");
     int x = 4;
     int y = 5;
     printf("%d\n",x * y);
-    return 0; // İşlem düzgün çalıştı sonuç ekrana yazıldı 
+    return 0; // İşlem düzgün çalıştı sonuç ekrana yazıldı.
 }
     int main(){
         main1();
