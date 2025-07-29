@@ -75,7 +75,7 @@ void secenek(birim sayi) {
       switch (tur) {
          case metre: return "metre";
          case santimetre: return "santimetre";
-         case milimetre: return "millimetre";
+         case milimetre: return "milimetre";
           default : return "HATA";
     }
 }
