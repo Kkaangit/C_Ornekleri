@@ -9,7 +9,7 @@ int main() {
     };
     for(int i=0;i<5;i++) // Derinliği yazıyor .
     {
-        printf("matrix %d\n",i);
+        printf("matrix %d\n",i+1);
         for(int j=0;j<5;j++) // Satırı yazıyor.
         {
             for(int k=0;k<5;k++)// Sütunu yazıyor.
@@ -17,6 +17,6 @@ int main() {
                 printf( "%d ",matrix[i][j][k]);
             }printf("\n");
         }printf("\n");
-    }printf("\n");
+    }
 return 0;
 }
